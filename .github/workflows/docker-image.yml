@@ -2,10 +2,8 @@ name: Package build
 
 on:
   push:
-    tags:
-      - 'v0.*'
-      - 'dev-build-*'
-      - 'dev-build_*'
+    branches:
+     - master
 
 jobs:
   release:
